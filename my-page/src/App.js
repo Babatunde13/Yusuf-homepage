@@ -12,14 +12,16 @@ import Attribution from "./component/Attribution";
 
 
 export default function App(){
-    <div>
-    <Navbar />
-    <SectionOne />
-    <SectionTwo />
-    <SectionThree />
-    <SectionFour />
-    <SectionFive />
-    <SectionSix />
-    <Attribution/>
-</div>
+    return (
+        <div>
+            <Navbar />
+            <SectionOne />
+            <SectionTwo />
+            <SectionThree />
+            <SectionFour />
+            <SectionFive />
+            <SectionSix />
+            <Attribution/>
+        </div>
+    )
 }
